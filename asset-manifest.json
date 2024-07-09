@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.6fa5f23e.css",
-    "main.js": "./static/js/main.5e90179b.js",
+    "main.css": "./static/css/main.b388051c.css",
+    "main.js": "./static/js/main.403bd770.js",
     "static/media/course_image_3.png": "./static/media/course_image_3.d6870657894029561f8c.png",
     "static/media/course_picture.jpg": "./static/media/course_picture.911dcd95d0dca4e4f131.jpg",
     "static/media/course_image_2.png": "./static/media/course_image_2.0d80325c7477ea070b0b.png",
@@ -15,11 +15,11 @@
     "static/media/SFUIDisplay-Bold.woff2": "./static/media/SFUIDisplay-Bold.de06fd537f47d93309ef.woff2",
     "static/media/SFUIDisplay-Regular.woff2": "./static/media/SFUIDisplay-Regular.d5b1bd49ba459767871a.woff2",
     "index.html": "./index.html",
-    "main.6fa5f23e.css.map": "./static/css/main.6fa5f23e.css.map",
-    "main.5e90179b.js.map": "./static/js/main.5e90179b.js.map"
+    "main.b388051c.css.map": "./static/css/main.b388051c.css.map",
+    "main.403bd770.js.map": "./static/js/main.403bd770.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fa5f23e.css",
-    "static/js/main.5e90179b.js"
+    "static/css/main.b388051c.css",
+    "static/js/main.403bd770.js"
   ]
 }
