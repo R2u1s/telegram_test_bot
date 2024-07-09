@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.b388051c.css",
-    "main.js": "./static/js/main.a34a5c82.js",
+    "main.js": "./static/js/main.92da9a34.js",
     "static/media/audioFile.mp3": "./static/media/audioFile.b1711d13d99d1f3a9f08.mp3",
-    "static/media/course_image_3.png": "./static/media/course_image_3.c9a4d4abfda0a581a8fe.png",
-    "static/media/course_picture.jpg": "./static/media/course_picture.f280990e8fca62b3cb69.jpg",
-    "static/media/course_image_2.png": "./static/media/course_image_2.c0ea3fce49a0e911d2b3.png",
-    "static/media/course_picture_4.jpg": "./static/media/course_picture_4.8e78f1d95ee44fbcb1b2.jpg",
-    "static/media/course_picture_5.jpg": "./static/media/course_picture_5.2dbfc50b913a0953e880.jpg",
+    "static/media/image2.jpg": "./static/media/image2.c9a4d4abfda0a581a8fe.jpg",
+    "static/media/image3.jpg": "./static/media/image3.f280990e8fca62b3cb69.jpg",
+    "static/media/image1.jpg": "./static/media/image1.c0ea3fce49a0e911d2b3.jpg",
+    "static/media/image4.jpg": "./static/media/image4.8e78f1d95ee44fbcb1b2.jpg",
+    "static/media/image5.jpg": "./static/media/image5.2dbfc50b913a0953e880.jpg",
     "static/media/SFUIDisplay-Medium.woff": "./static/media/SFUIDisplay-Medium.691073e2b9ef80d5c702.woff",
     "static/media/SFUIDisplay-Bold.woff": "./static/media/SFUIDisplay-Bold.111df0192eebd73b0bdf.woff",
     "static/media/SFUIDisplay-Regular.woff": "./static/media/SFUIDisplay-Regular.1b6ee1f6f9e80f37ff4e.woff",
@@ -16,10 +16,10 @@
     "static/media/SFUIDisplay-Regular.woff2": "./static/media/SFUIDisplay-Regular.d5b1bd49ba459767871a.woff2",
     "index.html": "./index.html",
     "main.b388051c.css.map": "./static/css/main.b388051c.css.map",
-    "main.a34a5c82.js.map": "./static/js/main.a34a5c82.js.map"
+    "main.92da9a34.js.map": "./static/js/main.92da9a34.js.map"
   },
   "entrypoints": [
     "static/css/main.b388051c.css",
-    "static/js/main.a34a5c82.js"
+    "static/js/main.92da9a34.js"
   ]
 }
