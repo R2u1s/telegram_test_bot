@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/R2u1s/telegram_test_bot/static/css/main.b57c6350.css",
-    "main.js": "/R2u1s/telegram_test_bot/static/js/main.f079cc50.js",
+    "main.js": "/R2u1s/telegram_test_bot/static/js/main.86d9395c.js",
     "static/media/audioFile.mp3": "/R2u1s/telegram_test_bot/static/media/audioFile.b1711d13d99d1f3a9f08.mp3",
     "static/media/image2.jpg": "/R2u1s/telegram_test_bot/static/media/image2.c9a4d4abfda0a581a8fe.jpg",
     "static/media/image3.jpg": "/R2u1s/telegram_test_bot/static/media/image3.f280990e8fca62b3cb69.jpg",
@@ -16,10 +16,10 @@
     "static/media/SFUIDisplay-Regular.woff2": "/R2u1s/telegram_test_bot/static/media/SFUIDisplay-Regular.d5b1bd49ba459767871a.woff2",
     "index.html": "/R2u1s/telegram_test_bot/index.html",
     "main.b57c6350.css.map": "/R2u1s/telegram_test_bot/static/css/main.b57c6350.css.map",
-    "main.f079cc50.js.map": "/R2u1s/telegram_test_bot/static/js/main.f079cc50.js.map"
+    "main.86d9395c.js.map": "/R2u1s/telegram_test_bot/static/js/main.86d9395c.js.map"
   },
   "entrypoints": [
     "static/css/main.b57c6350.css",
-    "static/js/main.f079cc50.js"
+    "static/js/main.86d9395c.js"
   ]
 }
