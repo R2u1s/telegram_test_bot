@@ -1,0 +1,123 @@
+.player {
+  margin:0 auto;
+  padding:24px 24px 0px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--background-player);
+}
+
+.player__item-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.player__text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+}
+
+.player__name {
+  padding: 0;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.player__theme {
+  padding: 0;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.player__player-buttons {
+  margin: 0 auto;
+  padding: 0;
+  width:100%;
+  max-width: 288px;
+  display: flex;
+  flex-flow:row;
+  justify-content:space-between;
+}
+
+.player__player-button {
+  cursor: pointer;
+  color: var(--text-main);
+}
+
+.player__flex-row {
+  margin:0;
+  padding:0;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.player__speed {
+  margin:0;
+  width:71px;
+  height: 36px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap:4px;
+  align-items: center;
+  background-color: var(--background-label);
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.player__speed:active {
+  opacity: 35%;
+  border: 1px solid var(--text-hint);
+}
+
+.player__seekbar {
+  width:100%;
+  height: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player__bar {
+  width:100%;
+  height: 6px;
+  border-radius: 3px;
+  background-color:var(--background-label);
+  position: relative;
+}
+
+.player__seekbar-flex {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.player__progress {
+  max-width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background-color:var(--text-hint);
+  position: absolute;
+  top:0;
+  left:0;
+}

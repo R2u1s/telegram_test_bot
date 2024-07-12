@@ -1,0 +1,167 @@
+@import url(./vendor/fonts.css);
+
+:root {
+  /* colors */
+
+  --background-light: rgba(239, 239, 244, 1);
+  --background-dark: rgba(15, 15, 15, 1);
+  --background-light-secondary: white;
+  --background-dark-secondary: rgba(33, 33, 33, 1);
+  --background-light-label: rgba(0, 0, 0, 0.04);
+  --background-dark-label: rgba(255, 255, 255, 0.08);
+
+  /* text */
+  --black-100: #fff;
+  --text-main-dark: rgba(255, 255, 255, 1);
+  --text-hint-dark: rgba(170, 170, 170, 1);
+  --text-main-light: black;
+  --text-hint-light: rgba(112, 117, 121, 1);
+
+  --button-color:rgba(41, 144, 255, 1);
+
+  /* default value light theme */
+  --background-player: white;
+  --background: var(--background-light);
+  --background-secondary: var(--background-light-secondary);
+  --background-label: var(--background-light-label);
+  --text-main:var(--text-main-light);
+  --text-hint:var(--text-hint-light);
+
+}
+
+.dark {
+  --background: var(--background-dark);
+  --background-secondary: var(--background-dark-secondary);
+  --background-label: var(--background-dark-label);
+  --background-player: var(--background-dark);
+  --text-main:var(--text-main-dark);
+  --text-hint:var(--text-hint-dark);
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  --local-border-radius: 10px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: var(--background);
+  font-family: 'SF';
+  font-weight: normal;
+  max-width: 390px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE, Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Opera, Safari */
+}
+
+.text {
+  font-family: 'SF';
+  display: block;
+  display: -webkit-box;
+}
+
+.text_color_main {
+  color: var(--text-main);
+}
+
+.text_color_hint {
+  color: var(--text-hint);
+}
+
+.text_color_white {
+  color: white;
+}
+
+.text_color_button {
+  color: white;
+}
+
+.text_weight_regular {
+  font-weight: 400;
+}
+
+.text_weight_medium {
+  font-weight: 590;
+}
+
+.text_weight_bold {
+  font-weight: 700;
+}
+
+.text_size_xxs {
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.text_size_xs {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.text_size_s {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.text_size_sm {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.text_size_m {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.text_size_l {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text_size_xl {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text_overflow_one {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text_overflow_two {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text_overflow_three {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text_overflow {
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text_style_uppercase {
+  text-transform: uppercase;
+}

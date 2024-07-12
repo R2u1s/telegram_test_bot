@@ -1,0 +1,20 @@
+@font-face {
+  src: url(./SFUIDisplay-Regular.woff) format('woff'),
+       url(./SFUIDisplay-Regular.woff2) format('woff2');
+  font-family: 'SF';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./SFUIDisplay-Medium.woff) format('woff'),
+       url(./SFUIDisplay-Medium.woff2) format('woff2');
+  font-family: 'SF';
+  font-weight: 590;
+}
+
+@font-face {
+  src: url(./SFUIDisplay-Bold.woff) format('woff'),
+       url(./SFUIDisplay-Bold.woff2) format('woff2');
+  font-family: 'SF';
+  font-weight: 700;
+}

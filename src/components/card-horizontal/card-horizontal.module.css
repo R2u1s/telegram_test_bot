@@ -1,0 +1,43 @@
+.list__card_type_horizontal {
+  margin: 0;
+  padding: 16px;
+  min-width: 252px;
+  height: 312px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.list__card_type_horizontal:last-child {
+  margin-right:12px;
+}
+
+.list__card_type_horizontal::before {
+  z-index: 0;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.0527407) 8.07%, rgba(0, 0, 0, 0.103831) 15.08%, rgba(0, 0, 0, 0.15411) 21.23%, rgba(0, 0, 0, 0.204418) 26.69%, rgba(0, 0, 0, 0.255596) 31.67%, rgba(0, 0, 0, 0.308484) 36.36%, rgba(0, 0, 0, 0.36392) 40.96%, rgba(0, 0, 0, 0.422746) 45.65%, rgba(0, 0, 0, 0.485802) 50.63%, rgba(0, 0, 0, 0.553928) 56.09%, rgba(0, 0, 0, 0.627963) 62.23%, rgba(0, 0, 0, 0.708747) 69.23%, rgba(0, 0, 0, 0.797122) 77.3%, rgba(0, 0, 0, 0.893926) 86.63%, #000000 97.4%); */
+  background: linear-gradient(to top, black, 20%, transparent);
+  border-radius: 16px;
+  /*   opacity:60%; */
+}
+.list__card_type_horizontal:active {
+  opacity: 65%;
+}
+
+.list__text-horizontal-card {
+  margin: 0;
+  z-index: 2;
+  /*   color: white; */
+}
